@@ -1,0 +1,32 @@
+extends base.pug
+
+block style
+    style
+        include ../static/style.css
+        include ../static/AbStyle.css
+
+
+block content
+    nav#navbar
+        ul
+            img(src="static/img4.png", alt="", srcset="")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Pricing]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact]
+
+block sec
+    div.local
+        h1 About
+        p We are in the business from the last 20 years. We have the world class dancers and they will guide you to rule the industry.With an aim to provide quality dance training and making dance available to all, SHIAMAK dance classes run throughout the year at multiple locations for students from ages four to eighty four providing them with training in various dance styles by Shiamak’s expert faculty. The classes give them an opportunity to learn dance, express themselves creatively and perform on stage. Classes are available for children (4 to 6 years), juniors (7 to 11 years) and adults (12 years onwards).
+        p If you dream to become a great dancer start with us with minimum pricings click on the contact tab and fill the contact form to join us.
+        div.imag
+            img(src="static/ab1.jpg", alt="")
+            img(src="static/ab2.jpg", alt="")
+            img(src="static/ab3.jpg", alt="")
+
+block footer
+    footer
+        div
+            || Creator : Mayank | All Rights Reserved |

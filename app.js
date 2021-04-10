@@ -20,6 +20,11 @@ app.get('/contact',(req, res)=>{
     res.status(200).render('contact.pug',params);
 })
 
+app.get('/about',(req, res)=>{
+    const params ={}
+    res.status(200).render('about.pug',params);
+})
+
 app.post('/',(req, res)=>{
     console.log(req.body)
     const params ={}

@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+
+.local{
+    display: block;
+    text-align: center;
+    flex-direction: column;
+    background: url(/static/ab.jpg);
+    min-height: 500px;
+    /* border: 14px solid rgb(226, 243, 151); */
+}
+.local h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px 20px;
+    /* border: 15px solid rgb(59, 17, 17);
+    border-radius: 18px; */
+}
+.local p{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+    width: 80%;
+    text-align: justify;
+
+}
+.imag{
+
+    display: inline;
+    width: auto;
+}
+.imag img{
+    padding: 50px 5px;
+    height: 80%;
+    width: 25%;
+    margin: 10px 10px;
+}
+/* .local{
+
+} */
