@@ -50,7 +50,7 @@ app.get('/events', (req, res) => {
 
 app.post('/', (req, res,) => {
     console.log(req.body)
-    const dance = new Dance(req.body.mobno)
+    const dance = new Dance(req.body)
     dance.save()
         .then(item => {
             res.send("item saved to database");
