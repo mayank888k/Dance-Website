@@ -1,0 +1,42 @@
+extends base.pug
+
+block style
+    style
+        include ../static/style.css
+        include ../static/ConStyle.css
+
+
+block content
+    nav#navbar
+        ul
+            img(src="static/img4.png", alt="", srcset="")
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Pricing]
+            li #[a(href="/") Services]
+            li #[a(href="/") Contact]
+
+block sec
+    section#consec
+        div.containerr
+            h2 Contact Form
+            p Please fill this contact form with valid details so that we can contact you with that details
+            form(action="/" method = "post")
+                input(type="text" name="name" class="conform" placeholder="Enter your Name")
+                input(type="email" name="email" class="conform" placeholder="Enter your Email")
+                input(type="number" name="Mob No" class="conform" placeholder="Enter your Mobile Number")
+                div.radio
+                    label(for="gender") Gender :
+                    label(for="gender") Male
+                    input(type="radio", name="gender" class = "conform" value = "male" )
+                    label(for="gender") Female
+                    input(type="radio", name="gender" class = "conform" value = "female")
+                    label(for="gender") Other
+                    input(type="radio", name="gender" class = "conform" value = "others")
+                button.btnc 
+                    |Submit
+
+block footer
+    footer
+        div
+            || Creator : Mayank | All Rights Reserved |

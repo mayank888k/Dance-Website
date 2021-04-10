@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Yatra+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: black;
+}
+#navbar li{
+    list-style: none;
+    padding: 12px 30px;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#navbar ul a{
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Yatra One', cursive;
+    padding: 5px 7px;
+    margin: 2px 2px;
+}
+
+#navbar a:hover{
+    color: rgb(85, 31, 71);
+    background-color: rgba(252, 250, 231, 0.932);
+    border-radius: 10px;
+    margin: 0px 13px;
+}
+
+#sec1 h1{
+    font-family: 'Yatra One', cursive;
+    padding: 5px 5px;
+    font-size: 2rem;
+
+} 
+#sec1 div{
+    font-family: 'Yatra One', cursive;
+    padding: 5px 5px;
+
+} 
+
+#sec1{
+    background: url('/static/qa.jpg.jpg') center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    border-color: brown;
+}
+#sec2{
+    background: url('/static/bg.jpg.jpg');
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: 250px;
+    border-color: brown;
+}
+#sec3{
+    height: 300px;
+    margin-top: 10px;
+    background-color: rgb(121, 121, 121);
+}
+h3{
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    font-size: 1.5rem;
+    padding: 5px 5px;
+    padding-top: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    font-family: 'Yatra One', cursive;
+    padding: 5px 15px;
+    margin: auto;
+    width: 73%;
+}
+
+h4{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.card1{
+    border: 2px solid black;
+    background-color: rgb(240, 218, 218);
+    border-radius: 10px;
+    margin: 12px 20px;
+    padding: 10px 10px;;
+    height: 177px;
+
+}
+.card2{
+    border: 2px solid black;
+    background-color: rgb(240, 218, 218);
+    border-radius: 10px;
+    margin: 12px 20px;
+    padding: 10px 10px;;
+    height: 177px;
+    
+}
+.card3{
+    border: 2px solid black;
+    background-color: rgb(240, 218, 218);
+    border-radius: 10px;
+    margin: 12px 20px;
+    padding: 10px 10px;
+    height: 177px;
+    
+}
+
+.card22{
+    display: flex;
+    justify-content: center;
+}
+
+.card22 img{
+    height: 60px;
+    padding: 0px 15px;
+    width: 60px;
+}
+.card33{
+    display: flex;
+    justify-content: center;
+}
+
+.card33 img{
+    height: 60px;
+    width: 60px;
+    padding: 10px 15px;
+}
+.card11{
+    display: flex;
+    justify-content: center;
+}
+
+.card11 img{
+    height: 60px;
+    width: 60px;
+    padding: 10px 15px;
+}
+p{
+    padding-top: 10px;
+}
+
+.spon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    height: 150px;
+}
+
+.spon img{
+    height: 100px;
+    padding: 20px 20px;
+}
+
+footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px 5px;
+    font-size: 8px;
+    text-align: center;
+}
+
+#navbar ul img{
+    height: 50px;
+    padding: 2px 2px;
+    filter: invert();
+}
+
+#navbar ul img:hover{
+    filter: none;
+}
